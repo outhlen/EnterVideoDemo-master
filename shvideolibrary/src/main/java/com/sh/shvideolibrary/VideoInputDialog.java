@@ -44,7 +44,7 @@ public class VideoInputDialog extends DialogFragment {
     private ProgressBar mProgressRight,mProgressLeft;
     private MediaRecorder mMediaRecorder;
     private Timer mTimer;
-    private final int MAX_TIME = 1500;
+    private final int MAX_TIME = 500;
     private int mTimeCount;
     private long time;
     private boolean isRecording = false;
